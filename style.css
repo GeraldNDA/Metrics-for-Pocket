@@ -1,0 +1,126 @@
+*, *::before,*::after
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  background: #212121;
+  color: #FAFAFA;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu, sans-serif;
+}
+
+header
+{
+  max-height: 20vh;
+  font-family: Ubuntu, sans-serif;
+}
+a
+{
+  text-decoration: none;
+  color: inherit;
+}
+.logo, .refresh, .more
+{
+  height: 20vh;
+  display: inline-block;  
+  vertical-align: middle;
+}
+.logo img, .logo .title
+{
+  display: inline-block;
+}
+.logo img
+{
+  height: 7.5em;
+  vertical-align: middle;
+}
+.logo .title
+{
+  vertical-align: middle;
+  margin-left: -5%;
+}
+.logo .title h1, .logo .title h2 
+{
+  vertical-align: middle;
+  margin: 0;
+  line-height: 1;
+  font-weight: 300;
+}
+.logo .title h1
+{
+  font-size: 3em;
+  font-weight: 400;
+}
+.refresh
+{
+  line-height: 20vh;
+  vertical-align: middle;
+  font-size: 5vh;
+  margin: 0  2.5%;
+	font-weight: bolder;
+  
+  float: right;
+  clear: right;
+  
+}
+.more
+{
+  float: right;
+  line-height: 20vh;
+}
+.more .pocketLogo, .more span
+{
+  vertical-align: middle;
+  font-size: 2em;
+}
+.more .pocketLogo
+{
+  background-image: url("PocketLogo.png");
+  background-size: cover;
+  width: 5vh;
+  height: 5vh;
+  display: inline-block;
+  margin-right: 0.15em;
+}
+.countDisplay
+{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 75vh;
+  height: calc(80vh - 24px);
+} 
+.pocketCount
+{
+  
+  font-size: 3em;
+  font-size: 5vh;
+}
+
+.pocketCount span
+{
+  display: block;
+  font-size: 10em;
+  font-size: 25vh;
+  font-family: Open Sans, Impact, sans-serif;
+  font-weight: 800;
+  line-height: 1;
+  transition: all 0.5s cubic-bezier(0.47,0,0.74,0.71); 
+  
+}
+footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0,0, 0,0.75);
+}
+footer .heart
+{
+  color: #e74c3c;
+}
