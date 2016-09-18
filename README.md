@@ -1,4 +1,4 @@
-# Metrics-for-Pocket
+# Metrics for Pocket
 A tool to measure how many articles you have left to read in your Pocket app. 
 ## Planned Updates
 1. Add ability to count per tag
