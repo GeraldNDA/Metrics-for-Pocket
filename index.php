@@ -49,7 +49,7 @@
       $code = $result->code;
       $_SESSION['code'] = $code;
       
-      header("Location: https://getpocket.com/auth/authorize?request_token=$code&redirect_uri=http://geraldnda.comlu.com?redirect=done");
+      header("Location: https://getpocket.com/auth/authorize?request_token=$code&redirect_uri=https://pocketmetrics.herokuapp.com/?redirect=done");
       exit;
     }
     }
