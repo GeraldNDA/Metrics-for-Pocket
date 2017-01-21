@@ -68,7 +68,7 @@ window.onload = function(){
   document.getElementById("swag").innerHTML = pocketCount;
   increment(2, document.getElementById("swag").innerHTML);
   //band-aid
-  window.history.replaceState("", "Metrics for Pocket", "");
+  window.history.replaceState( {} , "Metrics for Pocket", "/");
  //TO-DO:
    //Save time of last update ...
    //Save count as default number
