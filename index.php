@@ -1,4 +1,5 @@
 <?php 
+  // change from global access token to hashed and more 
   $access_token = "";
   $consumer_key = "41234-af2d9cbd339c7ac68ff46575";
   $pocketCount;
@@ -143,7 +144,9 @@
 			<script src = "http://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script> var pocketCount = <?php echo $pocketCount ?>;</script>
       <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu:400,300,300italic,500' rel='stylesheet' type='text/css'>
-      <script src = "script.js" rel = "text/javascript"></script>
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	  <meta name="theme-color" content="#dddddd">
+	  <script src = "script.js" rel = "text/javascript"></script>
       <link href='style.css' rel='stylesheet' type='text/css'>
 		</head>
     <body>
