@@ -1,5 +1,4 @@
 <?php 
-  //3e5f1827-5e7a-081a-d862-cfe7d5
   $access_token = "";
   $consumer_key = "41234-af2d9cbd339c7ac68ff46575";
   $pocketCount;
@@ -14,7 +13,7 @@
     {
     $parameters = array(
       "consumer_key" => $consumer_key,
-      "redirect_uri" => "http://geraldnda.comlu.com/",
+      "redirect_uri" => "http://pocketmetrics.heroku.com/",
     );
 
     //set POST variables
@@ -66,7 +65,7 @@
     $ch = curl_init($url."?".$fields_string);
     $parameters = array(
       "consumer_key" => $consumer_key,
-      "redirect_uri" => "http://geraldnda.comlu.com/",
+      "redirect_uri" => "http://pocketmetrics.heroku.com/",
     );
     //set the url, number of POST vars, POST data
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -156,7 +155,7 @@
             <h2>for Pocket</h2>
           </div>
         </div>
-        <a href="http://geraldnda.comlu.com/" class="refresh">
+        <a href="http://pocketmetrics.heroku.com/" class="refresh">
          <!--&#10227;-->
          &#10226;
   
