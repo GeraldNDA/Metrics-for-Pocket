@@ -13,7 +13,7 @@
     {
     $parameters = array(
       "consumer_key" => $consumer_key,
-      "redirect_uri" => "http://pocketmetrics.heroku.com/",
+      "redirect_uri" => "https://pocketmetrics.herokuapp.com/",
     );
 
     //set POST variables
@@ -65,7 +65,7 @@
     $ch = curl_init($url."?".$fields_string);
     $parameters = array(
       "consumer_key" => $consumer_key,
-      "redirect_uri" => "http://pocketmetrics.heroku.com/",
+      "redirect_uri" => "https://pocketmetrics.herokuapp.com/",
     );
     //set the url, number of POST vars, POST data
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -155,7 +155,7 @@
             <h2>for Pocket</h2>
           </div>
         </div>
-        <a href="http://pocketmetrics.heroku.com/" class="refresh">
+        <a href="https://pocketmetrics.herokuapp.com/" class="refresh">
          <!--&#10227;-->
          &#10226;
   
