@@ -141,7 +141,7 @@
 	<html>
 		<head>
 			<title> Metrics for Pocket</title>
-			<script src = "http://code.jquery.com/jquery-2.1.4.min.js"></script>
+			<script src = "https://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script> var pocketCount = <?php echo $pocketCount ?>;</script>
       <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu:400,300,300italic,500' rel='stylesheet' type='text/css'>
       <link rel="icon" type="image/png" sizes="16x16" href="/ArticleCounterLogo.png">
@@ -163,7 +163,7 @@
          &#10226;
   
         </a>
-        <a href = "http://getpocket.com/a/queue/" class="more">
+        <a href = "https://getpocket.com/a/queue/" class="more">
           <div class="pocketLogo"></div>
           <span><?php echo !empty($username)?$username:"You"; ?></span>
         </a>
