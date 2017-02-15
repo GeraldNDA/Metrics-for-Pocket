@@ -79,7 +79,7 @@ a
 }
 .more .pocketLogo
 {
-  background-image: url("PocketLogo.png");
+  background-image: url("https://www.drupal.org/sites/all/themes/bluecheese/images/icon-w-user.svg");
   background-size: cover;
   width: 5vh;
   height: 5vh;
