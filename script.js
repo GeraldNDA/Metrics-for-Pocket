@@ -4,8 +4,8 @@ function countAnimate(speed, total)
 {
   speed = speed/0.05;
   var increment = Math.floor(total/speed);
-  if(interval < 1) {
-	  interval = 1;
+  if(increment < 1) {
+	  increment = 1;
   }
   intervalID = setInterval(incrementTest, 50, increment, total);
   document.getElementById("swag").innerHTML = 0;
