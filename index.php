@@ -1,5 +1,5 @@
 <?php 
-  // change from global access token to hashed and more 
+  //change from global variable to hashed values etc.
   $access_token = "";
   $consumer_key = "41234-af2d9cbd339c7ac68ff46575";
   $pocketCount;
@@ -141,12 +141,10 @@
 	<html>
 		<head>
 			<title> Metrics for Pocket</title>
-			<script src = "https://code.jquery.com/jquery-2.1.4.min.js"></script>
+			<script src = "http://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script> var pocketCount = <?php echo $pocketCount ?>;</script>
       <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu:400,300,300italic,500' rel='stylesheet' type='text/css'>
-      <link rel="icon" type="image/png" sizes="16x16" href="/ArticleCounterLogo.png">
-	  <meta name="theme-color" content="#dddddd">
-	  <script src = "script.js" rel = "text/javascript"></script>
+      <script src = "script.js" rel = "text/javascript"></script>
       <link href='style.css' rel='stylesheet' type='text/css'>
 		</head>
     <body>
@@ -158,22 +156,22 @@
             <h2>for Pocket</h2>
           </div>
         </div>
-        <a href="https://pocketmetrics.herokuapp.com/" class="refresh">
+        <a href="https://pocketmetrics.herokuapp.com//" class="refresh">
          <!--&#10227;-->
          &#10226;
   
         </a>
-        <a href = "https://getpocket.com/a/queue/" class="more">
+        <a href = "http://getpocket.com/a/queue/" class="more">
           <div class="pocketLogo"></div>
           <span><?php echo !empty($username)?$username:"You"; ?></span>
         </a>
       </header>
         <div class="countDisplay">
           <div class="pocketCount">
-          You have ... <span id ="swag">Unavailable</span> Unread Articles 
+          You have ... <span id ="swag">0</span> Unread Articles 
           </div>
           <div class="check">
-          This site is currently in maintenance.
+          Last updated <span>Unknown</span> ago ...
           </div>
         </div>
       <footer>
