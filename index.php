@@ -170,10 +170,10 @@
       </header>
         <div class="countDisplay">
           <div class="pocketCount">
-          You have ... <span id ="swag">0</span> Unread Articles 
+          You have ... <span id ="swag">Unavailable</span> Unread Articles 
           </div>
           <div class="check">
-          Last updated <span>Unknown</span> ago ...
+          This site is currently in maintenance.
           </div>
         </div>
       <footer>
